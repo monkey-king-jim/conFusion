@@ -74,3 +74,19 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal {
+    @include zero-margin(50px,0px);
+    .modal-header {
+        background-color: #512DA8;
+        .modal-title {
+            color: #ddd;
+        }
+        .close {
+            color: #9575CD;
+        }
+    }
+    .modal-body {
+        background-color: #D1C4E9;
+    }
+}
